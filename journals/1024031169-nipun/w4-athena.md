@@ -8,20 +8,6 @@ The objective was to create an initial 2D representation of the campus and allow
 
 Therefore, the navigation system needed to be represented as a graph rather than calculating a direct line between two locations.
 
-## Solution
-
-The 2D navigation system was developed by defining:
-
-1. Campus locations.
-2. Coordinates for each location.
-3. Connections between valid locations.
-4. Distance values for connected locations.
-5. A route calculation mechanism.
-6. A method for displaying the calculated route on the map.
-
-The structure allows the navigation system to determine which locations are directly connected.
-
-
 ## Problems Faced
 > Direct Diagonal Route Display
 
@@ -39,3 +25,16 @@ Start
 This does not represent the actual route that a student, cyclist or vehicle can follow.
 
 The problem occurred because the visualization was based directly on the start and destination coordinates instead of following intermediate nodes in the graph.
+
+## Solution
+
+The 2D navigation system was developed by defining:
+
+1. Campus locations.
+2. Coordinates for each location.
+3. Connections between valid locations.
+4. Distance values for connected locations.
+5. A route calculation mechanism.
+6. A method for displaying the calculated route on the map.
+
+The structure allows the navigation system to determine which locations are directly connected.
