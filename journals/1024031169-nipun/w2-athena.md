@@ -4,8 +4,6 @@
 
 After finalizing the project idea, the next challenge was converting the initial concept into a structured Software Engineering project.
 
-The project report had to clearly describe the system architecture, technology stack, functional requirements and interactions between different components. We also needed to represent the proposed system using appropriate UML diagrams.
-
 Another problem was deciding what information would need to be stored in the database because Athena would require both institutional information and structured campus information.
 
 ## Problems Faced
